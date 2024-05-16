@@ -5,7 +5,7 @@ from telethon.tl.types import InputMediaPhoto
 
 S = "/start"
 START_PIC = "https://telegra.ph/file/394ee036e46c66084fe93.jpg"
-TEXT = "**👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by** __**࿗OM࿗™**__\n\n✅ **Send me the Link of any message of Restricted Channels to Clone it here.**\n**For private channel's messages, send the Invite Link first.**"
+TEXT = "**👋 Hi, I am 'Save Restricted Content' bot Made with ❤️ by** __**KUNAL**__\n\n✅ **Send me the Link of any message of Restricted Channels to Clone it here.**\n**For private channel's messages, send the Invite Link first.**"
 
 def is_set_button(data):
     return data == "set"
@@ -50,7 +50,7 @@ async def remt(event):
 async def start_command(event):
     # Creating inline keyboard with buttons
     buttons = [
-        [Button.url("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ❤️", url="https://t.me/vibrantsamundra")],
+        [Button.url("OWNER❤️", url="https://t.me/ikunalx")],
         [Button.inline("ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ🙈", data="set"),
          Button.inline("ʀᴇᴍᴏᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟ🕺", data="rem")]
     ]
